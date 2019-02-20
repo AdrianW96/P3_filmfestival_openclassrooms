@@ -1,28 +1,30 @@
 #header{
-    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0, 0, 0, 1)), url(../img/brickwall1.jpg)center/cover no-repeat fixed;
+background: linear-gradient(rgba(255, 145, 145, 0.295),rgba(23, 163, 184, 0.356)), url(../img/brickwall1.jpg)center/cover no-repeat fixed;
 }
 
 .height {
-    height: 80vh;
+    height: 100vh;
 }
 
 body {
     font-family: 'Bungee Inline', cursive;
+    overflow-x:hidden;
 }
 
 h1 {
-    color: #c4c4c4;
+    color: #F8E8C1;
     text-shadow: 4px 4px 8px #000000;
+    position: relative;
+}
+
+.display-2 {
+    letter-spacing: 5px;
 }
 
 .date {
-    color: #b42727;
-    text-shadow: 4px 4px 8px #000000;
+    color: #da2020;
+    text-shadow: 2px 2px 4px #000000;
     font-family: 'Yellowtail', cursive;
-}
-
-span {
-    display: block;
 }
 
 .title-underline{
@@ -31,4 +33,64 @@ span {
     margin: 0 auto;
     background-color: #b42727;
     box-shadow: 4px 4px 8px #000000;;
+}
+
+/* animations */
+
+#header .leftanimation {
+    visibility: hidden;
+    position: relative;
+    animation: heading1;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes heading1 {
+    0% {left: -500px; opacity: 0; visibility: hidden;}
+    100% {left: 0px; opacity: 1; visibility: visible}
+}
+
+#header .rightanimation {
+    visibility: hidden;
+    animation: heading2;
+    position: relative;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes heading2 {
+    0% {right: -500px; opacity: 0; visibility: hidden;}
+    100% {right: 0px; opacity: 1; visibility: visible}
+}
+
+#header p {
+    top: 60px;
+    left: -30px;
+    position: relative;
+    visibility: hidden;
+    animation: date;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+}
+
+@keyframes date {
+    0% {opacity: 0; visibility: hidden;}
+    100% {opacity: 1; visibility: visible}
+}
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+    .titles {
+        font-size: 300%;
+    }
+
+    .date {
+        font-size: 2rem;
+    }
 }
