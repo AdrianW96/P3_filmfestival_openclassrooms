@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Yellowtail" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Yellowtail|PT+Sans:700|Playfair+Display"
+    rel="stylesheet">
   <!-- main css -->
   <link rel="stylesheet" href="css/main.css">
 
@@ -23,11 +23,12 @@
 
 <body>
   <!-- header -->
-  <header id="header" class="py-2">
+  <header id="header">
     <div class="container">
       <div class="row height align-items-center">
         <div class="col">
-          <h1 class="display-2 text-uppercase titles"><span class="leftanimation">Brooklyn Outdoor </span><span class="rightanimation float-xl-right">Film Festival</span></h1>
+          <h1 class="display-2 text-uppercase titles"><span class="leftanimation">Brooklyn Outdoor </span><span
+              class="rightanimation float-xl-right">Film Festival</span></h1>
           <p class="display-4 mt-4 date">August 5th to 8th</p>
         </div>
       </div>
@@ -35,32 +36,58 @@
   </header>
   <!-- end of header -->
   <!-- about section -->
-  <section id="about" class="py-5 bg-dark">
-    <div class="container height">
+  <section id="about" class="py-3">
+    <div class="container">
       <!-- title -->
       <div class="row">
         <div class="col text-center">
-          <h1 class="display-3 text-uppercase text-info mb-0">
+          <h1 class="display-3 text-uppercase mb-0 mt-3 sectionhead">
             <strong>about</strong>
           </h1>
           <div class="title-underline"></div>
         </div>
       </div>
       <!-- end of title -->
-      <div class="row">
-        <div class="col-md-6 col-lg-4 text-center my-4 mx-auto">
-          <div class="card">
+      <div class="row mt-2">
+        <div class="col-lg-6 text-center mt-5">
+          <div class="card border-dark">
             <div class="card-body">
-              <h5 class="card-title">Special title</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, quasi.</p>
-              <a href="#" class="btn btn-primary"></a>
+              <h5 class="card-title">The Festival</h5>
+              <hr>
+              <p class="card-text lead mt-4">Every year the Brooklyn Outdoor Film Festival takes place. We're happy to
+                tell you that this year it will be at <strong>Brooklyn Bridge Park</strong> which holds up to
+                <strong>5,000</strong> people! Everybody is welcome - from kids to retirees, african, chineese or
+                american, let's get together and watch some good movies selected by our film critics.<br><br>Be sure to
+                register here: </p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">Register</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 text-center my-4 mx-auto">
-          <div class="card">
+        <div class="col-lg-6 text-center mt-5">
+          <div class="card border-dark mb-4">
             <div class="card-body">
-              <h5 class="card-title">Special title</h5>
+              <h5 class="card-title">News</h5>
+              <hr>
+              <h4>
+                <strong>Approval from French Star Regisseur</strong>
+              </h4>
+              <p class="card-text font-weight-normal text-left">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Culpa officiis, minima tenetur tempore dignissimos nihil cum labore exercitationem repudiandae
+                modi dolores? Numquam ex eum ratione quod cum. Quo, reiciendis quod!</p>
+              <hr>
+              <h4>
+                <strong>Quentin Tarantino joining us</strong>
+              </h4>
+              <p class="card-text font-weight-normal text-left">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Culpa officiis, minima tenetur tempore dignissimos nihil cum labore exercitationem repudiandae
+                modi dolores? Numquam ex eum ratione quod cum. Quo, reiciendis quod!</p>
+              <hr>
+              <h4>
+                <strong>Already over 2000 registrants</strong>
+              </h4>
+              <p class="card-text font-weight-normal text-left">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Culpa officiis, minima tenetur tempore dignissimos nihil cum labore exercitationem repudiandae
+                modi dolores? Numquam ex eum ratione quod cum. Quo, reiciendis quod!</p>
             </div>
           </div>
         </div>
@@ -68,6 +95,103 @@
     </div>
   </section>
   <!-- end of about section -->
+  <!-- Films -->
+  <section id="films" class="py-3">
+    <div class="container">
+      <!-- title -->
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="display-3 text-uppercase sectionhead mb-0 mt-3">
+            <strong>Films</strong>
+          </h1>
+          <div class="title-underline"></div>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row mt-5 text-center">
+        <div class="col-xl-4 col-md-6 mb-5">
+          <div class="card border-warning w-100 h-100" >
+            <img src="./img/movie1.jpg" alt="first movie" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Win, Bet, Ride</h5>
+              <p class="card-text mt-4">The world of horseraces illuminated like never before. Great actors and wild scenes.</p>
+              <footer class="blockquote-footer pt-4">Adventure made by <cite title="Source Title">Jean Romanovo</cite></footer>
+            </div>
+            <div class="card-footer">
+              August 5
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 mb-5">
+          <div class="card border-warning w-100 h-100">
+            <img src="./img/movie2.jpg" alt="second movie" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Waterdrop</h5>
+              <p class="card-text mt-4">A movie about a surfer who was one of the best ever, when one day he almost
+                drowned everything changed..</p>
+                <footer class="blockquote-footer pt-1">Drama made by <cite title="Source Title">Kurt Zeiss</cite></footer>
+              </div>
+            <div class="card-footer">
+              August 5
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 mb-5">
+          <div class="card border-warning w-100 h-100">
+            <img src="./img/movie3.jpg" alt="third movie" class="card-img-top">
+            <div class="card-body">
+            <h5 class="card-title">What if</h5>
+              <p class="card-text mt-4">Imagine what could have happened if you made a different choice - yesterday, one week ago, 10 years ago? Let's explore.</p>
+              <footer class="blockquote-footer pt-1">Sci-Fi made by <cite title="Source Title">Garry Walters</cite></footer>
+            </div>
+            <div class="card-footer">
+              August 6
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 mb-5">
+            <div class="card border-warning w-100 h-100">
+              <img src="./img/movie4.jpg" alt="fourth movie" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Life of Chi</h5>
+                <p class="card-text mt-4">Chi claims to be happy. But what's his secret? Is there even a secret or are we all looking consciously away from the obvious?</p>
+                <footer class="blockquote-footer">Filmography made by <cite title="Source Title">Chin Ju-long</cite></footer>
+              </div>
+              <div class="card-footer">
+                August 7
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 mb-5">
+            <div class="card border-warning w-100 h-100">
+              <img src="./img/movie5.jpg" alt="fifth movie" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">No More Alone</h5>
+                <p class="card-text mt-4">Enrico and Rahel know each other since they were kids. It seemed perfect but then they took having eachother for granted. A fatal development followed creepingly.</p>
+                <footer class="blockquote-footer">Thriller made by <cite title="Source Title">Herlinde Sevenfold</cite></footer>
+              </div>
+              <div class="card-footer">
+                August 8
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 mb-5">
+            <div class="card border-warning w-100 h-100">
+              <img src="./img/movie6.jpg" alt="sixth movie" class="card-img-top">
+              <div class="card-body">
+              <h5 class="card-title">Funny Planet</h5>
+                <p class="card-text mt-4">See the worlds most peculiar animals and their behaviour. Filmed with the most advanced cameras and technology.</p>
+                <footer class="blockquote-footer pt-4">Documentation made by <cite title="Source Title">Mr. Bean</cite></footer>
+              </div>
+              <div class="card-footer">
+                August 8
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
