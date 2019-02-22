@@ -83,6 +83,20 @@ h4 {
     Font-Family: 'Playfair Display', Serif;
 }
 
+.btn-block {
+    width: 100% !important;
+}
+
+form {
+    width: 60%;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.form-check-inline, .ptsans {
+    font-size: 1.1rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* animations */
 
 #header .leftanimation {
