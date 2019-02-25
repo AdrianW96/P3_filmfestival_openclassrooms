@@ -1,20 +1,22 @@
 #header{
-background: linear-gradient(rgba(244, 226, 133, 0.37),rgba(244, 226, 133, 0.363)), url(../img/brickwall1.jpg)center/cover no-repeat fixed;
+background: linear-gradient(rgba(0, 0, 0, 0.514),#fffdf15d), url(../img/cinema.jpg)center/cover no-repeat fixed;
 }
 
 .height-35 {
-    height: 35vh;
+    height: 100vh;
     min-height: 400px;
+    
 }
 
 .height-20 {
-    height: 50vh;
+    height:30vh;
 }
 
 .navigationbar {
     height: 10vh;
-    background: #F4A259 !important;
+    background: #DDFFF7 !important;
     border-bottom: 5px solid #000;
+    height: 5vh;
 }
 
 body {
@@ -24,7 +26,7 @@ body {
 }
 
 h1 {
-    color: #ebe9e9f5;
+    color: #DDFFF7;
     text-shadow: 4px 4px 8px #000000;
     position: relative;
 }
@@ -35,15 +37,30 @@ h5 {
 }
 
 #about {
-    background-color: #F4A259;
+    background-color: #93E1D8;
+    border-bottom: 2px dashed #000;
 }
 
 #films {
     background-color: #ebe9e9f5;
+    border-bottom: 2px dashed #000;
+}
+
+#footer a {
+    color: #93E1D8;
 }
 
 .sectionhead {
-    color: #8CB369;
+    color: #0892A5;
+}
+
+i {
+    color: #93E1D8;
+}
+
+#form {
+    background-color: #AA4465;
+    border-bottom: 2px dashed #000;
 }
 
 h4 {
@@ -62,7 +79,7 @@ h4 {
 }
 
 .date {
-    color: #BC4B51;
+    color: rgb(197, 59, 103);
     text-shadow: 2px 2px 4px #000000;
     font-family: 'Yellowtail', cursive;
 }
@@ -71,7 +88,7 @@ h4 {
     width: 200px;
     height: 6px;
     margin: 0.5em auto;
-    background-color: #F4E285;
+    background-color: #FFA69E;
 }
 
 #about .card-title {
@@ -105,10 +122,7 @@ form {
 .form-check-inline, .ptsans {
     font-size: 1.1rem;
     font-family: 'PT Sans', sans-serif;
-}
-
-#filler {
-    background: url(https://images.unsplash.com/photo-1445824285584-336d1e77abbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1460&q=80)center/cover no-repeat fixed;
+    color: white;
 }
 
 /* animations */
@@ -140,7 +154,7 @@ form {
 
 @keyframes heading2 {
     0% {right: -500px; opacity: 0; visibility: hidden;}
-    100% {right: -30px; opacity: 1; visibility: visible}
+    100% {right: 0px; opacity: 1; visibility: visible}
 }
 
 #header p {

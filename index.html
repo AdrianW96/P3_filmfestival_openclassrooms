@@ -22,14 +22,18 @@
 </head>
 
 <body>
+  <!-- nav bar -->
   <nav class="navigationbar navbar navbar-expand-md navbar-light bg-light fixed-top">
     <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapse_target">
       <a class="navbar-brand"><img src="./img/bridge.png" alt="brand_icon"></a>
-      <span class="navbar-text">Brooklyn Outdoor Film Festival</span>
-      <ul class="navbar-nav">
+      <span class="navbar-text w-100">Brooklyn Outdoor Film Festival</span>
+      <ul class="navbar-nav w-100 justify-content-end">
+          <li class="nav-item">
+              <a href="#" class="nav-link">home</a>
+            </li>
         <li class="nav-item">
           <a href="#about" class="nav-link">about</a>
         </li>
@@ -42,27 +46,23 @@
       </ul>
     </div>
   </nav>
-
+<!-- end of nav bar -->
   <!-- header -->
   <header id="header">
     <div class="container">
       <div class="row height-35 align-items-center">
         <div class="col">
-          <h1 class="display-2 text-uppercase titles"><span class="leftanimation">Brooklyn Outdoor </span><span
-              class="rightanimation float-xl-right">Film Festival</span></h1>
-          <p class="display-4 mt-4 date">August 5th to 8th</p>
+          <h1 class="display-1 text-uppercase titles"><span class="leftanimation">Brooklyn Outdoor</span>
+            <br>
+            <span class="rightanimation">Film Festival</span></h1>
+          <p class="display-3 mt-4 date">August 5th to 8th</p>
         </div>
       </div>
     </div>
   </header>
   <!-- end of header -->
-  <!-- filler section -->
-  <section id="filler" class="height-20">
-
-  </section>
-  <!-- end of filler section -->
   <!-- about section -->
-  <section id="about" class="py-3">
+  <section id="about" class="py-5">
     <div class="container">
       <!-- title -->
       <div class="row">
@@ -85,7 +85,7 @@
                 <strong>5,000</strong> people! Everybody is welcome - from kids to retirees, african, chineese or
                 american, let's get together and watch some good movies selected by our film critics.<br><br>Be sure to
                 register here: </p>
-              <a href="#" class="btn btn-outline-primary btn-lg mt-3">Register</a>
+              <a href="#" class="btn btn-lg btn-primary mt-3">Register</a>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@
   </section>
   <!-- end of about section -->
   <!-- Films -->
-  <section id="films" class="py-3">
+  <section id="films" class="py-5">
     <div class="container">
       <!-- title -->
       <div class="row">
@@ -230,7 +230,7 @@
   </section>
   <!-- end of films section -->
   <!-- form section -->
-  <section id="form" class="py-3">
+  <section id="form" class="py-5">
     <div class="container">
       <!-- title -->
       <div class="row">
@@ -291,7 +291,7 @@
         </div>
         <div class="form-group row mt-5">
           <div class="col text-center">
-            <button type="submit" class="btn btn-outline-primary btn-lg w-75">Register</button>
+            <button type="submit" class="btn btn-primary btn-lg w-75">Register</button>
           </div>
         </div>
       </form>
@@ -299,6 +299,31 @@
     </div>
   </section>
   <!-- end of form section -->
+  <!-- footer section -->
+  <footer id="footer" class="bg-dark py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <a href="https://www.facebook.com/" class="btn">
+                    <i class="fab fa-facebook fa-3x m-2"></i>
+                </a>
+                <a href="https://twitter.com/" class="btn">
+                    <i class="fab fa-twitter fa-3x m-2"></i>
+                </a>
+                <a href="https://www.instagram.com/" class="btn">
+                    <i class="fab fa-instagram fa-3x m-2"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col text-center">
+                <a href="http://brooklyn.news12.com/" class="btn">Brooklyn's News</a>
+                <a href="https://www.brooklynbridgepark.org/" class="btn">Brooklyn Bridge Park</a>
+            </div>
+        </div>
+    </div>
+</footer>
+  <!-- end of footer section -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
