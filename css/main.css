@@ -2,21 +2,15 @@
 background: linear-gradient(rgba(0, 0, 0, 0.514),#fffdf15d), url(../img/cinema.jpg)center/cover no-repeat fixed;
 }
 
-.height-35 {
+.height-100 {
     height: 100vh;
-    min-height: 400px;
     
 }
 
-.height-20 {
-    height:30vh;
-}
-
 .navigationbar {
-    height: 10vh;
     background: #DDFFF7 !important;
-    border-bottom: 5px solid #000;
-    height: 5vh;
+    border-bottom: 3px solid #000;
+    height: 10vh;
 }
 
 body {
@@ -38,12 +32,10 @@ h5 {
 
 #about {
     background-color: #93E1D8;
-    border-bottom: 2px dashed #000;
 }
 
 #films {
     background-color: #ebe9e9f5;
-    border-bottom: 2px dashed #000;
 }
 
 #footer a {
@@ -60,7 +52,6 @@ i {
 
 #form {
     background-color: #AA4465;
-    border-bottom: 2px dashed #000;
 }
 
 h4 {
@@ -180,5 +171,11 @@ form {
 
     .date {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navigationbar {
+        height: auto;
     }
 }
