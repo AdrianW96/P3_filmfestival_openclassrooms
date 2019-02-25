@@ -22,10 +22,31 @@
 </head>
 
 <body>
+  <nav class="navigationbar navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapse_target">
+      <a class="navbar-brand"><img src="./img/bridge.png" alt="brand_icon"></a>
+      <span class="navbar-text">Brooklyn Outdoor Film Festival</span>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">about</a>
+        </li>
+        <li class="nav-item">
+          <a href="#films" class="nav-link">films</a>
+        </li>
+        <li class="nav-item">
+          <a href="#form" class="nav-link">register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- header -->
   <header id="header">
     <div class="container">
-      <div class="row height align-items-center">
+      <div class="row height-35 align-items-center">
         <div class="col">
           <h1 class="display-2 text-uppercase titles"><span class="leftanimation">Brooklyn Outdoor </span><span
               class="rightanimation float-xl-right">Film Festival</span></h1>
@@ -35,6 +56,11 @@
     </div>
   </header>
   <!-- end of header -->
+  <!-- filler section -->
+  <section id="filler" class="height-20">
+
+  </section>
+  <!-- end of filler section -->
   <!-- about section -->
   <section id="about" class="py-3">
     <div class="container">
@@ -230,7 +256,8 @@
         </div>
         <div class="form-group row">
           <div class="col">
-            <input type="number" class="form-control" id="inputHowMany" placeholder="How many people will come with you?">
+            <input type="number" class="form-control" id="inputHowMany"
+              placeholder="How many people will come with you?">
           </div>
         </div>
         <div class="form-group row">
