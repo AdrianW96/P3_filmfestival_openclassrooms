@@ -17,6 +17,11 @@ html {
     height: 5vh;
 }
 
+.btn-rounded {
+    font-family: 'Bungee Inline', cursive !important;
+    width: 15vw !important;
+}
+
 body {
     font-family: 'Bungee Inline', cursive;
     overflow-x:hidden;
