@@ -17,9 +17,10 @@ html {
     height: 5vh;
 }
 
-.btn-rounded {
+.registerbtn {
     font-family: 'Bungee Inline', cursive !important;
-    width: 15vw !important;
+    width: 20vw;
+    min-width: 9rem;
 }
 
 body {
@@ -181,6 +182,8 @@ form {
     .date {
         font-size: 3rem;
     }
+
+
 }
 
 @media screen and (max-width: 767px) {
