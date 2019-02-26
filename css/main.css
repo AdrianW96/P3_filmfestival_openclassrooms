@@ -2,6 +2,10 @@
 background: linear-gradient(rgba(0, 0, 0, 0.514),#fffdf15d), url(../img/cinema.jpg)center/cover no-repeat fixed;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .height-100 {
     height: 100vh;
     
@@ -10,7 +14,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.514),#fffdf15d), url(../img/cinema.j
 .navigationbar {
     background: #DDFFF7 !important;
     border-bottom: 3px solid #000;
-    height: 10vh;
+    height: 5vh;
 }
 
 body {
