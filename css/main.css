@@ -1,5 +1,5 @@
 #header{
-background: linear-gradient(rgba(0, 0, 0, 0.514),#fffdf15d), url(../img/cinema.jpg)center/cover no-repeat fixed;
+background: linear-gradient(rgba(0, 0, 0, 0.514),#0000005d), url(../img/cinema.jpg)center/cover no-repeat fixed;
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 }
 
 .navigationbar {
-    background: #DDFFF7 !important;
+    background: rgb(255, 158, 78) !important;
     border-bottom: 3px solid #000;
     height: 5vh;
     min-height: 3rem;
@@ -22,6 +22,8 @@ html {
     font-family: 'Bungee Inline', cursive !important;
     width: 20vw;
     min-width: 9rem;
+    background-color: orange;
+    color: white;
 }
 
 body {
@@ -31,8 +33,8 @@ body {
 }
 
 h1 {
-    color: #DDFFF7;
-    text-shadow: 4px 4px 8px #000000;
+    color: white;
+    text-shadow: 4px 4px 8px #f38200;
     position: relative;
 }
 
@@ -42,27 +44,28 @@ h5 {
 }
 
 #about {
-    background-color: #93E1D8;
+    background-color: #cfcfcf;
 }
 
 #films {
-    background-color: #ebe9e9f5;
+    background-color: #cfcfcf;
 }
 
 #footer a {
-    color: #93E1D8;
+    color: #eb924a;
 }
 
 .sectionhead {
-    color: #0892A5;
+    color: orange;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 i {
-    color: #93E1D8;
+    color: #eb924a;
 }
 
 #form {
-    background-color: #AA4465;
+    background-color: #cfcfcf;
 }
 
 h4 {
@@ -81,7 +84,7 @@ h4 {
 }
 
 .date {
-    color: rgb(197, 59, 103);
+    color: rgb(146, 146, 146);
     text-shadow: 2px 2px 4px #000000;
     font-family: 'Yellowtail', cursive;
 }
@@ -90,7 +93,14 @@ h4 {
     width: 200px;
     height: 6px;
     margin: 0.5em auto;
-    background-color: #FFA69E;
+    background-color: rgb(49, 49, 49);
+}
+
+.section-divider {
+    width: 80vw;
+    height: 3px;
+    background-color: grey;
+    margin: 0.5em auto;
 }
 
 #about .card-title {
@@ -124,7 +134,7 @@ form {
 .form-check-inline, .ptsans {
     font-size: 1.1rem;
     font-family: 'PT Sans', sans-serif;
-    color: white;
+    color: black;
 }
 
 /* animations */
