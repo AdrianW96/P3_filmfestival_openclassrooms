@@ -4,4 +4,4 @@ It's about creating a first version of a website for the __"Brooklyn Outdoor Fil
 
 ---
 
-Take a look at it live: [GitHub Pages](http://developfurther.tk/)
+Take a look at it live: [GitHub Pages](https://adrianw96.github.io/P3_filmfestival_openclassrooms/)
